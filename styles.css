@@ -1,0 +1,101 @@
+body {
+    background-color: #ffffff;
+
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    border: 3em black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    background-color: #5f7cdc;
+    border: 2em black;
+    font-size: xx-large;
+    padding: 2em;
+
+}
+
+li:hover {
+    background-color: rgb(203, 51, 64);
+    font-size: larger;
+    border-radius: 2em;
+}
+
+span {
+    color: red;
+    font-family: inter;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background-color: #5f7cdc;
+    border: solid #5f7cdc;
+    border-radius: 2em;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+
+}
+
+
+
+h3 {
+    background-color: rgb(41, 111, 232);
+    color: white;
+
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 2em;
+}
+
+h1 {
+    font-family: inter;
+    font-weight: bolder;
+    font-size: 500%;
+}
+
+
+div {
+    font-size: xx-large;
+    align-self: flex-end;
+    display: flex;
+
+
+}
+
+.footer {
+    background-color: #5f7cdc;
+
+    display: flex;
+}
+
+article {
+    background-color: blue;
+}
+
